@@ -1,0 +1,24 @@
+{
+  "nome_do_modelo": "regressao_linear_aluguel_casas",
+  "tipo_de_modelo": "regressao_linear",
+  "metricas": {
+    "rmse": 750,
+    "r_quadrado": 0.85
+  },
+  "hiperparametros": {
+    "learning_rate": 0.01,
+    "n_estimators": 100
+  },
+  "data_de_treinamento": "2024-05-08"
+}
+
+{
+  "endpoint_principal": {
+    "url": "https://[nome_do_seu_servico].azureml.net/score",
+    "chave_de_acesso": "[sua_chave_de_acesso]"
+  },
+  "endpoint_alternativo": {
+    "url": "https://[nome_do_seu_servico].azureml.net/score/swagger",
+    "descricao": "Endpoint para documentação interativa (Swagger)"
+  }
+}
